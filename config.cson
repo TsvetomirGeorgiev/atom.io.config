@@ -1,0 +1,129 @@
+"*":
+  "advanced-open-file":
+    fuzzyMatch: true
+  "atom-beautify":
+    general:
+      _analyticsUserId: "5b745a5e-df20-4bb4-b506-cac5832e0c33"
+      analytics: false
+    html:
+      beautify_on_save: true
+    js:
+      beautify_on_save: true
+      brace_style: "collapse-preserve-inline"
+      end_with_newline: true
+      indent_size: 2
+      keep_array_indentation: true
+      keep_function_indentation: true
+      space_after_anon_function: true
+    json:
+      brace_style: "collapse-preserve-inline"
+      break_chained_methods: true
+      end_with_newline: true
+      indent_size: 2
+      preserve_newlines: false
+    jsx:
+      brace_style: "collapse-preserve-inline"
+      default_beautifier: "JS Beautify"
+      end_with_newline: true
+      indent_size: 2
+      keep_function_indentation: true
+      space_after_anon_function: true
+    sql:
+      disabled: true
+      indent_size: 2
+    typescript:
+      beautify_on_save: true
+      brace_style: "collapse-preserve-inline"
+      break_chained_methods: true
+      end_with_newline: true
+  "atom-easy-jsdoc":
+    beta: true
+    useReturns: true
+  core:
+    customFileTypes:
+      "source.json": [
+        "jsbeautifyrc"
+      ]
+    disabledPackages: [
+      "language-ruby-on-rails"
+      "language-c"
+      "language-clojure"
+      "language-csharp"
+      "language-coffee-script"
+      "language-gfm"
+      "language-git"
+      "language-go"
+      "language-hyperlink"
+      "language-java"
+      "language-objective-c"
+      "language-perl"
+      "language-php"
+      "language-python"
+      "language-ruby"
+      "language-source"
+      "language-toml"
+    ]
+    openEmptyEditorOnStart: false
+    projectHome: "D:\\Projects\\"
+    telemetryConsent: "no"
+    themes: [
+      "seti-ui"
+      "seti-syntax"
+    ]
+  editor: {}
+  "exception-reporting":
+    userId: "eca9ff0c-50a0-405b-9c98-1ba04bb356b3"
+  "git-plus":
+    experimental: {}
+    general:
+      splitPane: "Right"
+  linter: {}
+  "linter-tslint":
+    enableSemanticRules: true
+    fixOnSave: true
+    ignoreTypings: true
+  "linter-ui-default":
+    panelHeight: 101
+  "project-manager":
+    includeGitRepositories: true
+  react: {}
+  "seti-syntax": {}
+  "seti-ui":
+    hideProjectTab: true
+  "toggle-quotes": {}
+  welcome:
+    showOnStartup: false
+".coffee.jsx.source":
+  editor:
+    tabLength: 2
+".diff.source":
+  editor:
+    tabLength: 2
+".git-commit.text":
+  editor:
+    tabLength: 2
+".git-rebase.text":
+  editor:
+    tabLength: 2
+".js.jsx.source":
+  editor:
+    tabLength: 2
+".js.regexp.replacement.source":
+  editor:
+    tabLength: 2
+".js.regexp.source":
+  editor:
+    tabLength: 2
+".js.source":
+  editor:
+    showIndentGuide: true
+    showInvisibles: false
+    tabLength: 2
+".json.source":
+  editor:
+    tabLength: 2
+".source.sql":
+  editor:
+    scrollPastEnd: true
+    showIndentGuide: true
+    tabLength: 2
